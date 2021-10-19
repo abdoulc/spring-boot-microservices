@@ -11,12 +11,3 @@ spring:
     driver-class-name: org.h2.Driver
   application:
     name: PAYMENT-SERVICE
-
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-    instance:
-      hostname: localhost
